@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Rampart+One&display=swap');
+      </style>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+        </style>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Rampart+One&family=Tourney:ital,wght@1,900&display=swap');
+          </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Rampart+One&family=Tourney:ital,wght@1,900&family=Zen+Tokyo+Zoo&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=Tourney:ital,wght@1,900&family=Zen+Tokyo+Zoo&display=swap');
+      </style>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <style>
+      body{
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  background-image: url('images/img.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+  </style>
+    
+  </style>
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+   
+    <div style="width: 100%; display: table;">
+    <div style="display: table-row; height: 100px;">
+    <div class="container" style="width: 50%; display: table-cell;">
+      <h2 style ="font-family: 'Black Ops One', cursive;">BUDGET TRACKER</h2>
+      <h3 style ="font-family: 'Black Ops One', cursive;">TRACKIT is here for you to track your budget  </h3>
+      <h4 style ="font-family: 'Black Ops One', cursive;" >YOUR SAVINGS</h4>
+      <h1 id="balance" style="font-family: 'Rampart One', cursive;">$0.00</h1>
+      <div class="inc-exp-container">
+        <div>
+          <h4>Income</h4>
+          <p id="money-plus" class="money-plus" style="font-family: 'Tourney', cursive;">
+            +$0.00
+          </p>
+        </div>
+        <div>
+          <h4>Expense</h4>
+          <p id="money-minus" class="money-minus" style="font-family: 'Tourney', cursive;">
+            -$0.00
+          </p>
+         
+        </div>
+      </div>
+    </div>
+    <div class="container"style="display: table-cell; ">
+      <h3 style="font-family: 'Kumar One', cursive;">History of income and expense</h3>
+      <ul id="list" class="list">
+        <!-- <li class="minus">
+          Cash <span>-$400</span
+          ><button class="delete-btn">x</button>
+        </li> -->
+      </ul>
+      <h3 style="font-family: 'Kumar One', cursive;">Add New Transition</h3>
+      <form id="form">
+          <div class="form-control">
+              <label for="text" style="font-family: 'Kumar One', cursive;">Text</label>
+              <input type="text" id="text" placeholder="Enter title..."style="font-family: 'Langar', cursive;"/>
+          </div>
+          <div class="form-control">
+              <label for="amount"style="font-family: 'Kumar One', cursive;">Amount <br> ( expense(negative) , income(positive) )</label>
+              <input type="number" id="amount" placeholder="Enter amount..."style="font-family: 'Langar', cursive;"> 
+          </div>
+          <button class="btn" style="font-family: 'Kumar One', cursive;">All transaction</button>
+      </form>
+    </div>
+    </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>
